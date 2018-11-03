@@ -1,7 +1,6 @@
 buildscript {
 	ext {
 		springBootVersion = '2.1.0.RELEASE'
-		springSessionRedisVersion = '1.0.0.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -16,6 +15,8 @@ apply plugin: 'eclipse-wtp'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'war'
+apply plugin: 'project-report'
+
 
 group = 'com.tcoweb'
 version = '0.0.1-SNAPSHOT'
@@ -32,7 +33,10 @@ configurations {
 dependencies {
 
 	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
-	compile group: 'org.springframework.session', name: 'spring-session-data-redis', version: "${springSessionRedisVersion}"
+
+	compile group: 'org.springframework.session', name: 'spring-session-data-redis'
+	compile 'redis.clients:jedis'
+	compile 'org.apache.commons:commons-pool2'
 
 	implementation('org.springframework.boot:spring-boot-starter-cache')
 	implementation('org.springframework.boot:spring-boot-starter-security')
