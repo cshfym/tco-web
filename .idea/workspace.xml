@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2672d3a6-fe97-4527-afe2-78aef77c9b50" name="Default" comment="">
+    <list default="true" id="2d14892f-efda-424f-a119-d3c399f20599" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/tco/web/Application.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/tco/web/ServletInitializer.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/tco/web/config/MvcConfig.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/css/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/js/ajax_loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/js/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/js/localCache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/template.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/ServletInitializer.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/tcoweb/web/WebApplicationTests.groovy" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,31 +46,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="web" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="web" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="web" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="reporting" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="web" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="tco-web" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -59,59 +61,45 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WebApplication.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding>
-                <element signature="e#24#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="MvcConfig.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/config/MvcConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-              <folding>
-                <element signature="e#24#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfig.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-              <folding>
-                <element signature="e#24#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="228">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/Application.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#21#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +107,18 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletInitializer.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/ServletInitializer.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,18 +127,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="102" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,9 +138,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>;F</find>
-      <find>;</find>
-      <find>Redis</find>
+      <find>gastocks</find>
+      <find>/login</find>
+      <find>secuir</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,12 +149,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Chuck\Development\gradle-4.10.2" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Chuck\.gradle\wrapper\dists\gradle-3.5.1-all\42vjebfdws9pjts3l4bouoq0p\gradle-3.5.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.10.2" />
+        <entry key="$PROJECT_DIR$" value="3.5.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -174,14 +162,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="web" />
+              <option name="name" value="tco-web" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="web" />
+                <option name="name" value="tco-web" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -195,7 +183,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'web'." />
+                <option name="description" value="Displays the sub-projects of root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -214,11 +202,6 @@
                 <option name="name" value="cleanEclipseWtp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bootJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Generates the Eclipse classpath file." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="eclipseClasspath" />
@@ -229,7 +212,7 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'web'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'tco-web'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -244,12 +227,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates a report about your properties." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="propertyReport" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'web'." />
+                <option name="description" value="Displays the tasks runnable from root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -264,9 +242,14 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependency management declared in root project 'web'." />
+                <option name="description" value="Displays the dependency management declared in root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRepackage" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -289,7 +272,7 @@
                 <option name="name" value="eclipseWtpFacet" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'web'." />
+                <option name="description" value="Displays all dependencies declared in root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -309,19 +292,9 @@
                 <option name="name" value="eclipseJdt" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates a report about your project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="projectReport" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a report about your library dependencies." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates the Eclipse project file." />
@@ -329,7 +302,7 @@
                 <option name="name" value="eclipseProject" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'web'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'tco-web'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -353,28 +326,18 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'web'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'tco-web'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles an executable war archive containing webapp content, and the main classes and their dependencies." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bootWar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'web'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="cleanEclipseProject" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates an HTML report about your library dependencies." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="htmlDependencyReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
@@ -385,11 +348,6 @@
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a report about your tasks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="taskReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles the test Groovy source." />
@@ -406,7 +364,7 @@
                 <option name="name" value="eclipseWtpComponent" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="bootRun" />
               </ExternalTaskPojo>
@@ -416,7 +374,7 @@
                 <option name="name" value="war" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'web'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -452,10 +410,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="cleanEclipseWtpComponent" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'web'." />
+                <option name="description" value="Displays the properties of root project 'tco-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -466,8 +428,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3082394949351" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4240708413" />
+        <entry key="$PROJECT_DIR$" value="3082734470507" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4018097329" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="3442123891" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -482,12 +445,16 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.0.RELEASE/da29bcfa10d5e31fd81b02d9f6c02cb8c61b3674/spring-boot-gradle-plugin-2.1.0.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.0.RELEASE/a32bf0b0084f0a5540d5167a76e278f8b593e9ef/spring-boot-loader-tools-2.1.0.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.2.RELEASE/b9b00d4075c92761cfd4e527e0bdce1931b4f3dc/spring-core-5.1.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.2.RELEASE/f0d7165b6cfb90356da4f25b14a6437fdef1ec8a/spring-jcl-5.1.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/86e765c58b4f26125714d466f1d0e0ff12b1ff76/spring-boot-gradle-plugin-1.5.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/c072438c3be7f48f1ecb595fe73d6140bbe8d1ae/spring-boot-gradle-plugin-1.5.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/5c2596d77f3b1f87c921bb568f0203b54dcbd8b0/spring-boot-loader-tools-1.5.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/9cd2349e3be4af2a59210b37e7ee1fdab043644/spring-boot-loader-tools-1.5.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/74cacfe24c0f88a4577990fb24c9fdf4a73f443c/spring-core-4.3.10.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -496,87 +463,145 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="web" />
+              <option name="name" value="tco-web" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/ant-1.9.11.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/build-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/workers" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-base-services-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-base-services-groovy-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-cli-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-core-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-docs-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-installation-beacon-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-jvm-services-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-launcher-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-logging-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-messaging-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-model-core-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-model-groovy-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-native-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-open-api-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-process-services-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-resources-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-runtime-api-info-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-script-kotlin-0.8.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-tooling-api-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-ui-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-version-info-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/gradle-wrapper-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/groovy-all-2.4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-announce-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-antlr-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-build-cache-http-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-build-comparison-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-build-init-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-code-quality-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-composite-builds-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-dependency-management-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-diagnostics-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-ear-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-ide-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-ide-native-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-ide-play-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-ivy-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-jacoco-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-javascript-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-jetty-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-language-groovy-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-language-java-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-language-jvm-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-language-native-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-language-scala-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-maven-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-osgi-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-platform-base-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-platform-jvm-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-platform-native-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-platform-play-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-plugin-development-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-plugin-use-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-plugins-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-publish-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-reporting-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-resources-http-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-resources-s3-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-resources-sftp-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-scala-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-signing-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-test-kit-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-testing-base-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-testing-jvm-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-testing-native-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-tooling-api-builders-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/gradle-workers-3.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5.1-all/42vjebfdws9pjts3l4bouoq0p/gradle-3.5.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -593,25 +618,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/tco/web/ServletInitializer.groovy" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/css/foo.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/template.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/application.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/hello.html" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/Initializer.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/tcoweb/config/SpringSessionRedisConfig.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/css/application.css" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/tco/web/config/WebSecurityConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/tco/web/Application.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/tco/web/config/MvcConfig.groovy" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/LoginManagementResource.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
+    <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -627,71 +654,106 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tcoweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tcoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="tco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tco" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tco" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tco-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="tco-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -702,10 +764,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chuck\Development\Projects\tco-web\src\main\resources\public\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -719,24 +785,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TCO Web bootRun">
-    <configuration name="TCO Web bootRun" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -817,309 +866,115 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="tco-web [projectReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="projectReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.TCO Web bootRun" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.tco-web [projectReport]" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.tco-web [projectReport]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2672d3a6-fe97-4527-afe2-78aef77c9b50" name="Default" comment="" />
-      <created>1541132495308</created>
+      <changelist id="2d14892f-efda-424f-a119-d3c399f20599" name="Default" comment="" />
+      <created>1541357374819</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541132495308</updated>
+      <updated>1541357374819</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit.">
-      <created>1541257518266</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1541257518266</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5539326" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49101123" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19119227" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2755102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18259935" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5067416" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="GradleRunConfiguration">
-        <watch expression="session.isNew()" language="Groovy" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/tcoweb/web/WebApplicationTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/ServletInitializer.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/ajax_loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/charts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9e3741f7cb7db06829fc818e38f58bbe9f5a0b94/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.1.1.RELEASE/f48cca9129d4e080f70e8a318b15493452b15a0/spring-security-core-5.1.1.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="154" column="8" lean-forward="false" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/project/dependencies/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1127,112 +982,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.1.2.RELEASE/1a97deb49629b9582afbc80798e0743c49b1409b/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/config/WebSecurityConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/config/SpringSessionRedisConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/ServletInitializer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/Initializer.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/136c8dc5c84e82bf2d68bb10648d4fa8b402184/tomcat-embed-core-9.0.12.jar!/javax/servlet/http/HttpSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/LoginManagementResource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/MvcConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tcoweb/web/WebSecurityConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="e#24#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="102" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="102" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/config/MvcConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/tco/web/Application.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>

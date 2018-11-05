@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '2.1.0.RELEASE'
+		springBootVersion = '1.5.6.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -13,12 +13,8 @@ buildscript {
 apply plugin: 'groovy'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
 apply plugin: 'war'
-apply plugin: 'project-report'
 
-
-group = 'com.tcoweb'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
@@ -30,23 +26,30 @@ configurations {
 	providedRuntime
 }
 
+springBoot {
+	mainClass = "com.tco.web.Application"
+}
+
+// Used by 'Spring Boot Gradle Plugin' in combination with 'Devtools' makes HTML/JS/CSS reloadable.
+bootRun {
+	addResources = true
+}
+
 dependencies {
 
+	compile('org.codehaus.groovy:groovy')
+	// compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 
 	compile group: 'org.springframework.session', name: 'spring-session-data-redis'
 	compile 'redis.clients:jedis'
 	compile 'org.apache.commons:commons-pool2'
 
-	implementation('org.springframework.boot:spring-boot-starter-cache')
-	implementation('org.springframework.boot:spring-boot-starter-security')
-	implementation('org.springframework.boot:spring-boot-starter-web')
-	implementation('org.springframework.session:spring-session-core')
-	implementation('org.codehaus.groovy:groovy')
+	runtime('org.springframework.boot:spring-boot-devtools')
 
-	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 
-	testImplementation('org.springframework.boot:spring-boot-starter-test')
-	testImplementation('org.springframework.security:spring-security-test')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('org.springframework.security:spring-security-test')
 }
